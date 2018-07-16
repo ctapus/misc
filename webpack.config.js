@@ -1,5 +1,5 @@
 const path = require("path");
-const webpack = require('webpack');
+const webpack = require("webpack");
 
 module.exports = {
   entry: ["./src/simu.ts"],
@@ -21,21 +21,18 @@ module.exports = {
   },
   plugins: [
       new webpack.ProvidePlugin({            
-          $: 'jquery',
-          jQuery: 'jquery',
-          jquery: 'jquery'
+          $: "jquery",
+          jQuery: "jquery",
+          jquery: "jquery"
       })
   ],
-  resolve: {
-      extensions: ['.tsx', '.ts', '.js']
-  },
   devServer: {
-      stats: 'errors-only',
+      stats: "errors-only",
       host: process.env.HOST,
       port: process.env.PORT,
       open: true,
       overlay: true,
-      contentBase: './',
-      openPage: ''
+      contentBase: "./",
+      openPage: ""
     }
 };

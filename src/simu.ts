@@ -1,4 +1,5 @@
 import * as $ from "jquery";
+import "jquery-ui/ui/widgets/slider";
 
 function randomBoolean(): boolean {
 	let outcome: number = Math.floor(Math.random() + 0.5);

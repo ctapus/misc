@@ -4,23 +4,23 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server --mode development --watch",
+    "start": "webpack-dev-server --mode development --hot",
     "build": "webpack --mode production"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "jquery": "^3.3.1",
-    "npm": "^6.1.0"
+    "jquery-ui": "^1.12.1",
+    "npm": "^6.2.0"
   },
   "devDependencies": {
-    "webpack": "^4.15.1",
-    "webpack-cli": "^3.0.8",
-    "webpack-dev-server": "^3.1.4",
+    "@types/jquery": "^3.3.4",
+    "@types/jqueryui": "^1.12.2",
     "ts-loader": "^4.4.2",
     "typescript": "^2.9.2",
-    "@types/jquery": "^3.3.4",
-    "@types/jqueryui": "^1.12.2"
+    "webpack": "^4.16.1",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.1.4"
   }
 }
