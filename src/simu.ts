@@ -321,7 +321,7 @@ $(document).ready(() => {
 	newSimulation();
 	$("#btnRun").click(() => {
 		$("#btnRun").hide();
-		let interval: number = setInterval(() => {
+		let interval: number = window.setInterval(() => {
 			let divCurrent: JQuery = $("#" + getHeartbeatDivId(selectedHeartbeat));
 			if (selectedHeartbeat < numberOfHeartbeats) {
 				selectedHeartbeat++;

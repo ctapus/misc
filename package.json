@@ -11,17 +11,17 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "jquery": "^3.3.1",
+    "jquery": "^3.4.1",
     "jquery-ui": "^1.12.1",
-    "npm": "^6.9.0"
+    "npm": "^6.10.3"
   },
   "devDependencies": {
-    "@types/jquery": "^3.3.29",
+    "@types/jquery": "^3.3.31",
     "@types/jqueryui": "^1.12.7",
     "ts-loader": "^4.5.0",
     "typescript": "^2.9.2",
-    "webpack": "^4.29.6",
-    "webpack-cli": "^3.3.0",
-    "webpack-dev-server": "^3.2.1"
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.7.2"
   }
 }
