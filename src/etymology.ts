@@ -1,18 +1,18 @@
 import * as $ from "jquery";
 class Language {
-    readonly static English: string = "English";
-    readonly static MiddleEnglish: string = "Middle English";
-    readonly static OldEnglish: string = "Old English";
-    readonly static  ProtoGermanic: string = " Proto-Germanic";
-    readonly static French : string = "French";
-    readonly static German : string = "German";
-    readonly static Russian : string = "Russian";
-    readonly static Spanish : string = "Spanish";
-    readonly static Swedish : string = "Swedish";
-    readonly static Latin: string = "Latin";
-    readonly static AncientGreek: string = "Ancient Greek";
-    readonly static ProtoHellenic: string = "Proto-Hellenic";
-    readonly static ProtoIndoEuropean: string = "Proto-Indo-European";
+    static readonly English: string = "English";
+    static readonly MiddleEnglish: string = "Middle English";
+    static readonly OldEnglish: string = "Old English";
+    static readonly  ProtoGermanic: string = " Proto-Germanic";
+    static readonly French : string = "French";
+    static readonly German : string = "German";
+    static readonly Russian : string = "Russian";
+    static readonly Spanish : string = "Spanish";
+    static readonly Swedish : string = "Swedish";
+    static readonly Latin: string = "Latin";
+    static readonly AncientGreek: string = "Ancient Greek";
+    static readonly ProtoHellenic: string = "Proto-Hellenic";
+    static readonly ProtoIndoEuropean: string = "Proto-Indo-European";
 }
 class Word {
     name: string;
